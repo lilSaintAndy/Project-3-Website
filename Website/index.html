@@ -15,73 +15,58 @@
 
 <body>
 
-    <!-- Hero -->
-    <section class="et-hero-tabs">
-        <h1>STICKY SLIDER NAV</h1>
-        <h3>Sliding content with sticky tab nav</h3>
-        <div class="et-hero-tabs-container">
-            <a class="et-hero-tab" href="#tab-es6">ES6</a>
-            <a class="et-hero-tab" href="#tab-flexbox">Flexbox</a>
-            <a class="et-hero-tab" href="#tab-react">React</a>
-            <a class="et-hero-tab" href="#tab-angular">Angular</a>
-            <a class="et-hero-tab" href="#tab-other">Other</a>
-            <span class="et-hero-tab-slider"></span>
-        </div>
-    </section>
+<!-- Hero -->
+<section class="et-hero-tabs">
+    <div class="image-container">
+        <img src="photos/Painter1.jpg" alt="Description 1">
+        <img src="photos/Painter2.jpg" alt="Description 2">
+        <img src="photos/Painter3.jpeg" alt="Description 3">
+    </div>
+    <h1>Artesian</h1>
+    <h3>Where Creativity Meets Opportunity</h3>
+    <div class="et-hero-tabs-container">
+        <a class="et-hero-tab" href="#tab-es6">Meet our Artists</a>
+        <a class="et-hero-tab" href="#tab-flexbox">Our Inventory</a>
+        <a class="et-hero-tab" href="#tab-react">Custom pieces</a>
+        <a class="et-hero-tab" href="#tab-angular">Angular</a>
+        <a class="et-hero-tab" href="#tab-other">Other</a>
+        <span class="et-hero-tab-slider"></span>
+    </div>
+</section>
+
 
     <!-- Main -->
     <main class="et-main">
         <section class="et-slide" id="tab-es6">
-            <h1>ES6</h1>
-            <h3>something about es6</h3>
-        </section>
+            <h1>Meet Our Artists</h1>
+        <!-- Container for the image and text -->
+        <div class="artist-container">
+            <!-- Image of Alex Jordan -->
+            <img src="photos/AlexJordan.png" alt="Alex Jordan" class="artist-image">
+            <!-- Text Content -->
+            <div class="artist-info">
+                <h3>Alex Jordan</h3>
+                <p>Art isn’t just about creating something beautiful, it’s about telling a story. I want my work to reflect emotion, craftsmanship, and the journey behind each piece.</p>
+            </div>
+        </div>
+    </section>
         <section class="et-slide" id="tab-flexbox">
-            <h1>Flexbox</h1>
+            <h1>Our Inventory</h1>
             <h3>something about flexbox</h3>
         </section>
         <section class="et-slide" id="tab-react">
-            <h1>React</h1>
+            <h1>Manage Your Art</h1>
             <h3>something about react</h3>
         </section>
         <section class="et-slide" id="tab-angular">
-            <h1>Angular</h1>
+            <h1>Customer Management</h1>
             <h3>something about angular</h3>
         </section>
         <section class="et-slide" id="tab-other">
-            <h1>Other</h1>
+            <h1>Reports & Analytics</h1>
             <h3>something about other</h3>
         </section>
         </main>
 
-    <h1>[Introduce the Platform (Artesian)]</h1>
-    <p>We help artists track materials, manage clients, and sell artwork while giving collectors a seemless experience to explore and commission custom pieces.</p>
-
-
-    <h1>Meet our Artists</h1>
-    <a href="#">Discover Artwork</a>
-
-    <!-- Sidebar Nav -->
-    <nav id="mySidenav" class="sidenav">
-        <ul>
-            <li><a class="closebtn">&times;</a></li>
-            <li><a href="#">Materials Inventory</a></li>
-            <li><a href="#">Manage Your Art</a></li>
-            <li><a href="#">Customer Management</a></li>
-            <li><a href="#">Reports & Analytics</a></li>
-        </ul>
-    </nav>
-
-        <!-- Use any element to open the sidenav -->
-		<div class="openbtn">
-			<span class="material-symbols-outlined menu-button">menu</span>
-			<span class="menu-text">menu</span>
-		</div>
-
-		<div class="all-over-bkg"></div>
-
-
-        <!-- JAVASCRIPT -->
-		<script src="js/sidenav.js"></script>
-        <script src="js/stickySlider.js"></script>
 </body>
 </html>
