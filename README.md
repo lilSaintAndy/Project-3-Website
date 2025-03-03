@@ -1,1 +1,1 @@
-Since we do not have the webpage on a live server we do not have a URL. In this GitHub folder is where you will find our up to date website. 
+https://cgi.luddy.indiana.edu/~joelna/Project-3-Website-main/Website/index.html#tab-other
